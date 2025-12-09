@@ -1,4 +1,5 @@
 📊 Customer Behaviour Analytics Project
+
 🔍 Overview
 
 This project focuses on analysing customer behaviour to uncover purchase patterns, segment customers, and identify business opportunities. The workflow includes data loading in Python, data cleaning, exploratory data analysis (EDA), SQL-based querying, Power BI dashboard development, and presentation creation. The objective is to transform raw transactional data into actionable insights for data-driven decision-making.
