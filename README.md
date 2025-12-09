@@ -1,142 +1,123 @@
-📊 Customer Behaviour Data Analytics Project – README
-📌 Overview
+📊 Customer Behaviour Analytics Project
+🔍 Overview
 
-This project analyzes customer behavior using Python, SQL, and Power BI to uncover insights such as purchase patterns, key customer segments, retention trends, and product performance.
-It includes data loading, cleaning, exploratory data analysis (EDA), SQL querying, dashboard creation, and reporting.
+This project focuses on analysing customer behaviour to uncover purchase patterns, segment customers, and identify business opportunities. The workflow includes data loading in Python, data cleaning, exploratory data analysis (EDA), SQL-based querying, Power BI dashboard development, and presentation creation. The objective is to transform raw transactional data into actionable insights for data-driven decision-making.
 
 📂 Dataset
 
-Format: CSV / Excel
+Source: CSV/Excel transactional dataset
 
-Contains transaction-level customer data
+Typical columns: CustomerID, Age, Gender, Product, Quantity, Amount, Date, City, etc.
 
-Typical fields: CustomerID, Age, Gender, Product, Quantity, Amount, Date, City, etc.
-
-Used for: EDA, feature engineering, SQL queries, and dashboard visualizations
+Used for segmentation, trend analysis, EDA, and dashboard visualisation
 
 🛠️ Tools & Technologies
 
-Python: Pandas, NumPy, Matplotlib/Seaborn
+Programming & Analysis: Python (Pandas, NumPy, Matplotlib, Seaborn)
+Databases: PostgreSQL / MySQL / SQL Server
+Data Visualization: Power BI
+Presentation: Gamma App
+Environment: Jupyter Notebook / VS Code
 
-SQL: PostgreSQL / MySQL / SQL Server
+🧪 Project Workflow
+1. Data Loading (Python)
 
-Power BI: Interactive dashboard
+Loaded dataset using Pandas
 
-Gamma App: Automated PPT generation
-
-Jupyter Notebook / VS Code: Development environment
-
-🔍 Steps
-1. Load the Dataset in Python
-
-Import dataset using Pandas
-
-Check data shape, missing values, and structure
+Inspected structure, datatypes, missing values, and quality issues
 
 2. Data Cleaning
 
-Handle missing values
+Handled null values and duplicates
 
-Remove duplicates
+Normalised formats and datatypes (date, numerical fields)
 
-Convert datatypes (e.g., dates)
-
-Feature engineering (e.g., total spend, recency, frequency)
+Feature engineering: total spend, visit frequency, recency metrics
 
 3. Exploratory Data Analysis (EDA)
 
-Univariate & bivariate analysis
+Univariate and bivariate analysis
 
-Trend visualizations (sales over time, customer distribution, product demand)
+Trend exploration (monthly sales, product performance, demographic distribution)
 
-Correlation analysis
+Correlation and distribution studies
 
-4. SQL Queries
+4. SQL Querying
 
-Executed queries on PostgreSQL/MySQL/SQL Server to:
+Executed analytical queries on PostgreSQL/MySQL/SQL Server to:
 
-Filter customer segments
+Segment customers using behavioural metrics
 
-Aggregate sales
+Aggregate sales revenue and order counts
 
-Identify high-value customers (RFM-based)
+Identify high-value customers (RFM indicators)
 
-Analyze product performance
+Evaluate product/category performance
 
-Generate monthly/quarterly insights
+Generate retention and churn insights
 
 5. Power BI Dashboard
 
-Created an interactive dashboard with:
+Developed an interactive dashboard including:
 
-Sales trends
+Customer segmentation and demographic insights
 
-Customer segments
+Sales trends, AOV, repeat purchase behaviour
 
-Product category performance
+Product/category revenue breakdown
 
-Geographic insights
+Geographic insights and KPI cards
 
-KPIs: AOV, retention, repeat purchases
+6. Report & Presentation
 
-6. Report Creation
+Summarised key findings and insights
 
-Summary of findings
+Highlighted business implications and improvement opportunities
 
-Key metrics
+Created a clean, professional PPT using Gamma for project communication
 
-Actionable recommendations
+📈 Key Results & Insights
 
-7. PPT Using Gamma
+Identified high-value customer segments driving majority of revenue
 
-Automated slide deck
+Revealed repeat-purchase patterns and retention trends
 
-Visual insights, charts, and conclusions
+Highlighted top and bottom product categories
 
-Clean, recruiter-ready presentation
+Provided data-driven recommendations for targeted marketing and customer engagement
 
-📈 Dashboard Highlights
-
-Dynamic slicers for customer demographics
-
-Product-wise sales and revenue breakdown
-
-Repeat purchase behavior insights
-
-Interactive charts (line, bar, map, KPI cards)
-
-🧠 Results & Key Insights
-
-Identified top-performing customer segments
-
-Observed retention trends and repeat purchase patterns
-
-Highlighted high-value customers using RFM analysis
-
-Revealed underperforming product categories
-
-Created a data-backed approach for marketing and business decisions
-
-▶️ How to Run
-1. Python Script
+▶️ How to Run the Project
+Python
 pip install -r requirements.txt
 python analysis.py
 
-2. SQL
+SQL
 
-Import dataset.csv into your SQL database
+Import dataset into chosen SQL database
 
 Run queries from queries.sql
 
-3. Power BI
+Power BI
 
 Open dashboard.pbix
 
-Refresh dataset connection
+Refresh dataset connections for updated visuals
 
-4. Gamma PPT
+Presentation
 
-Open presentation.gslides (Gamma export)
+Open presentation.gamma (Gamma export)
 
-Customize if needed# Customer_Behaviour_Analysis
-Analysed customer transactions to identify buying patterns and key behavioural segments. Cleaned and transformed data using Python and SQL, and built an interactive Power BI dashboard to visualise KPIs such as AOV, retention, and repeat purchase trends.
+Review or customise slides if needed
+
+📌 Project Structure
+├── data/
+├── notebooks/
+├── scripts/
+├── sql/
+├── dashboard/
+├── reports/
+└── README.md
+
+💡 Conclusion
+
+This project demonstrates an end-to-end data analytics workflow, combining Python, SQL, and Power BI to deliver clear, actionable business insights from raw customer data. It showcases skills in data preparation, analytical thinking, visual storytelling, and professional reporting—reflecting real-world industry standards.
